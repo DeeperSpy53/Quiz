@@ -1,0 +1,78 @@
+"Phrases"
+{
+    "Example"
+    {
+        "en"        "Example "
+        "ru"        "Пример "
+    }
+
+    "TimeIsOver"
+    {
+		"#format"	"{1:d}"
+		"en"		"Time end, the correct answer - {1}"
+        "ru"        "Время вышло, правильный ответ - {1}"
+    }
+
+    "Reward"
+    {
+		"#format"	"{1:d}"
+		"en"        "Reward for the correct answer {1}"
+        "ru"        "Вознаграждение за правильный ответ {1}"
+    }
+	
+    "RewardClient"
+    {
+		"#format"	"{1:N},{2:d}"
+		"en"		"{GREEN}{1}, {DEFAULT}answered correct, the right answer {RED}{2}"
+        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно, верный ответ {RED}{2}"
+    }
+	
+    "AdminAnswer"
+    {
+		"#format"	"{1:d},{2:d}"
+		"en"		"Answer on example: {RED}{1}. {DEFAULT}Random Number: {RED}{2}."
+        "ru"        "Ответ на пример: {RED}{1}. {DEFAULT} Случайное число: {RED}{2}."
+    }
+	
+    "CreateExample"
+    {
+		"en"        "Example created!"
+        "ru"        "Пример создан!"
+    }
+	
+    "CreateRn"
+    {
+		"en"		"Random number generated!"
+        "ru"        "Случайное число сгенерировано!"
+    }
+	
+    "RnStart"
+    {
+		"#format"	"{1:d},{2:d}"
+        "ru"        "Я загадал число от {1} до {2}"
+    }
+	
+	"QuizMenuTitle"
+	{
+		"en"		"Quiz"
+		"ru"		"Quiz"
+	}
+	
+	"Answer"
+	{
+		"en"		"Answer"
+		"ru"		"Ответ"
+	}
+	
+	"CreateExampleMenu"
+	{
+		"en"		"Generation example"
+		"ru"		"Сгенерировать пример"
+	}
+	
+	"CreateRnMenu"
+	{
+		"en"		"Generation random number"
+		"ru"		"Сгенерировать случайное число"
+	}
+}
