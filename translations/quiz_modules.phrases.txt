@@ -1,0 +1,64 @@
+"Phrases"
+{
+	"RewardCredits"
+	{
+		"#format"	"{1:d}"
+		"en"		"Reward for correct answer {RED}{1} {DEFAULT} credits"
+		"ru"		"Вознаграждение за правильный ответ {RED}{1} {DEFAULT}кредитов"
+	}
+	
+	"RewardCreditsClient"
+	{
+		"#format"	"{1:d}"
+		"en"		"You been accrued {RED}{1} {DEFAULT}credits"
+		"ru"		"Вам было начислено {RED}{1} {DEFAULT}кредитов"
+	}
+	
+	"RewardGold"
+	{
+		"#format"	"{1:d}"
+		"en"		"Reward for correct answer {RED}{1} {DEFAULT} gold"
+		"ru"		"Вознаграждение за правильный ответ {RED}{1} {DEFAULT}золота"
+	}
+	
+	"RewardGoldClient"
+	{
+		"#format"	"{1:d}"
+		"en"		"You been accrued {RED}{1} {DEFAULT}gold"
+		"ru"		"Вам было начислено {RED}{1} {DEFAULT}золота"
+	}
+
+	"RewardHp"
+	{
+		"#format"	"{1:d}"
+		"en"		"Reward for correct answer {RED}{1} {DEFAULT} hp"
+		"ru"		"Вознаграждение за правильный ответ {RED}{1} {DEFAULT}хп"
+	}
+	
+	"RewardHpClient"
+	{
+		"#format"	"{1:d}"
+		"en"		"You been accrued {RED}{1}{DEFAULT}hp
+		"ru"		"Вам было начислено {RED}{1}{DEFAULT}хп"
+	}
+	
+	"RewardLvl"
+	{
+		"#format"	"{1:d}"
+		"en"		"Reward for correct answer {RED}{1} {DEFAULT} levels"
+		"ru"		"Вознаграждение за правильный ответ {RED}{1} {DEFAULT}уровней"
+	}
+	
+	"RewardLvlClient"
+	{
+		"#format"	"{1:d}"
+		"en"		"You been accrued {RED}{1} {DEFAULT}levels"
+		"ru"		"Вам было начислено {RED}{1} {DEFAULT}уровней"
+	}
+	
+	"RewardVipClient"
+	{
+		"en"		"For the correct answer in the quiz, you got a vip!"
+		"ru"		"За правильный ответ в викторине, вы получили вип!"
+	}
+}
