@@ -11,7 +11,7 @@
 
 ## Модули
 
-- [[Vip Reward](https://hlmod.ru/resources/quiz-vip-reward.1128/)
+- [Vip Reward](https://hlmod.ru/resources/quiz-vip-reward.1128/)
 - [Wcs Reward](https://hlmod.ru/resources/quiz-wcs-reward.1127/)
 - [Shop Reward](https://hlmod.ru/resources/quiz-shop-reward.1126/)
 - [Sound](https://hlmod.ru/resources/quiz-sound.1125/)
