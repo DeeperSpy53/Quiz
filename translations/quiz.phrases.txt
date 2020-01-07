@@ -1,23 +1,30 @@
 "Phrases"
 {
+    "Prefix"
+    {
+        "en"        "{BLUE}[Quiz] {DEFAULT}"
+        "ru"        "{BLUE}[Викторина] {DEFAULT}"
+    }
+	
     "Example"
     {
-        "en"        "Example "
-        "ru"        "Пример "
+		"#format"	"{1:s}"
+        "en"        "Example {1}"
+        "ru"        "Пример {1}"
     }
 
     "TimeIsOver"
     {
 		"#format"	"{1:d}"
-		"en"		"Time end, the correct answer - {1}"
-        "ru"        "Время вышло, правильный ответ - {1}"
+		"en"		"Time end, the correct answer - {GREEN}{1}"
+        "ru"        "Время вышло, правильный ответ - {GREEN}{1}"
     }
-
-    "Reward"
+	
+    "TimeIsOverQuestion"
     {
-		"#format"	"{1:d}"
-		"en"        "Reward for the correct answer {1}"
-        "ru"        "Вознаграждение за правильный ответ {1}"
+		"#format"	"{1:s}"
+		"en"		"Time end, the correct answer - {GREEN}{1}"
+        "ru"        "Время вышло, правильный ответ - {GREEN}{1}"
     }
 	
     "RewardClient"
@@ -27,52 +34,30 @@
         "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно, верный ответ {RED}{2}"
     }
 	
-    "AdminAnswer"
+    "RewardClientQuestion"
     {
-		"#format"	"{1:d},{2:d}"
-		"en"		"Answer on example: {RED}{1}. {DEFAULT}Random Number: {RED}{2}."
-        "ru"        "Ответ на пример: {RED}{1}. {DEFAULT} Случайное число: {RED}{2}."
-    }
-	
-    "CreateExample"
-    {
-		"en"        "Example created!"
-        "ru"        "Пример создан!"
-    }
-	
-    "CreateRn"
-    {
-		"en"		"Random number generated!"
-        "ru"        "Случайное число сгенерировано!"
+		"#format"	"{1:N},{2:s}"
+		"en"		"{GREEN}{1}, {DEFAULT}answered correct, the right answer {RED}{2}"
+        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно, верный ответ {RED}{2}"
     }
 	
     "RnStart"
     {
 		"#format"	"{1:d},{2:d}"
+		"en"		"I make up number from {1} to {2}"
         "ru"        "Я загадал число от {1} до {2}"
     }
 	
-	"QuizMenuTitle"
+	"Reward"
 	{
-		"en"		"Quiz"
-		"ru"		"Quiz"
+		"#format"	"{1:N}"
+		"en"		"{GREEN}{1}, {DEFAULT}answered correct!"
+        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно!"
 	}
 	
-	"Answer"
+	"TimeIsOverNotAnswer"
 	{
-		"en"		"Answer"
-		"ru"		"Ответ"
-	}
-	
-	"CreateExampleMenu"
-	{
-		"en"		"Generation example"
-		"ru"		"Сгенерировать пример"
-	}
-	
-	"CreateRnMenu"
-	{
-		"en"		"Generation random number"
-		"ru"		"Сгенерировать случайное число"
+		"en"		"Time end!"
+        "ru"        "Время вышло!"
 	}
 }
