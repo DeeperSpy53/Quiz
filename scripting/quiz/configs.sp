@@ -6,9 +6,13 @@ void QuestionCfg()
 	
 	if(g_hKvQuestion.ImportFromFile(sPath))
 	{
+		g_iMaxQuestion = GetMaxQuestion();
+		
 		static char sQuestion[1024];
 		g_hKvQuestion.Rewind();
 		g_iDisplayAnswer = g_hKvQuestion.GetNum("DisplayAnswer", 0);
+		g_iModeQuestion = g_hKvQuestion.GetNum("Mode", 1);
+		
 		g_hKvQuestion.GotoFirstSubKey();
 		{
 			do
@@ -49,6 +53,40 @@ void MainCfg()
 		g_iMax = hKv.GetNum("Max");
 	}
 	else SetFailState("[Quiz] file is not found (%s)", sPath);
+}
+
+stock int GetMaxQuestion()
+{
+	int iCount;
+	g_hKvQuestion.Rewind();
+	if(g_hKvQuestion.GotoFirstSubKey())
+	{
+		do
+		{
+			iCount++;
+		} 
+		while (g_hKvQuestion.GotoNextKey());
+	}
+	return iCount;
+}
+
+void GetRandomQuestion()
+{
+	int iQuestion = GetRandomInt(1, g_iMaxQuestion), iCount;
+	
+	g_hKvQuestion.Rewind();
+	if(g_hKvQuestion.GotoFirstSubKey())
+	{
+		do
+		{
+			if(iCount == iQuestion)
+				break;
+
+			iCount++;
+		} 
+		while (g_hKvQuestion.GotoNextKey());
+	}
+	return;
 }
 
 void KvUp()

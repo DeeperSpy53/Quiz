@@ -32,6 +32,7 @@ public int Native_GetAnswerQuestion(Handle hPlugin, int iNumParams)
 {
 	int iSize = GetNativeCell(2);
 	SetNativeString(1, g_sAnswer, iSize);
+	
 	return 1;
 }
 
