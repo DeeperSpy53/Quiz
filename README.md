@@ -20,3 +20,6 @@
 - [THC RPG Reward](https://hlmod.ru/resources/quiz-thc-rpg-reward.1129/)
 
 ### [Поддержка плагина](https://discord.gg/ExPjKh2)
+
+## ChangeLog
+Пока пусто
