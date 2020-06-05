@@ -30,29 +30,29 @@
     "RewardClient"
     {
 		"#format"	"{1:N},{2:d}"
-		"en"		"{GREEN}{1}, {DEFAULT}answered correct, the right answer {RED}{2}"
-        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно, верный ответ {RED}{2}"
+		"en"		"Игрок {GREEN}{1}{DEFAULT}, {answered correct, the right answer {RED}{2}"
+        "ru"        "Игрок {GREEN}{1}{DEFAULT}, ответил правильно, верный ответ {RED}{2}"
     }
 	
     "RewardClientQuestion"
     {
 		"#format"	"{1:N},{2:s}"
-		"en"		"{GREEN}{1}, {DEFAULT}answered correct, the right answer {RED}{2}"
-        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно, верный ответ {RED}{2}"
+		"en"		"Игрок {GREEN}{1}{DEFAULT}, answered correct, the right answer {RED}{2}"
+        "ru"        "Игрок {GREEN}{1}{DEFAULT}, ответил правильно, верный ответ {RED}{2}"
     }
 	
     "RnStart"
     {
 		"#format"	"{1:d},{2:d}"
-		"en"		"I make up number from {1} to {2}"
+		"en"		"I made a number from {1} to {2}"
         "ru"        "Я загадал число от {1} до {2}"
     }
 	
 	"Reward"
 	{
 		"#format"	"{1:N}"
-		"en"		"{GREEN}{1}, {DEFAULT}answered correct!"
-        "ru"        "{GREEN}{1}, {DEFAULT}ответил правильно!"
+		"en"		"Игрок {GREEN}{1}{DEFAULT}, answered correct!"
+        "ru"        "Игрок {GREEN}{1}{DEFAULT}, ответил правильно!"
 	}
 	
 	"TimeIsOverNotAnswer"
